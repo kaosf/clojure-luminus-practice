@@ -1,18 +1,15 @@
 # luminus-practice
 
-FIXME
-
-## Prerequisites
-
-You will need [Leiningen][1] 2.0 or above installed.
-
-[1]: https://github.com/technomancy/leiningen
-
 ## Running
 
 To start a web server for the application, run:
 
     lein ring server
+
+## References
+
+* [Luminus - A Clojure Web Framework](http://www.luminusweb.net)
+* [おいしい Clojure 入門 初版](http://gihyo.jp/book/2013/978-4-7741-5991-1)
 
 ## License
 
