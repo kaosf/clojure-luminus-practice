@@ -19,6 +19,18 @@ heorku create:app <appname>
 git push heroku master
 ```
 
+### A part of logs on deployment
+
+```
+...
+-----> Clojure (Leiningen 2) app detected
+-----> Installing OpenJDK 1.6...done
+-----> Installing Leiningen
+       Downloading: leiningen-2.3.4-standalone.jar
+       Writing: lein script
+...
+```
+
 ## References
 
 * [Luminus - A Clojure Web Framework](http://www.luminusweb.net)
