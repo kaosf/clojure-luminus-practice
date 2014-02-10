@@ -10,6 +10,15 @@ lein ring server-headless
 #lein ring server # open browser
 ```
 
+## Deploy to Heroku
+
+Nothing to do!
+
+```sh
+heorku create:app <appname>
+git push heroku master
+```
+
 ## References
 
 * [Luminus - A Clojure Web Framework](http://www.luminusweb.net)
