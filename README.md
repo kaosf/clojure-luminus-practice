@@ -1,4 +1,4 @@
-# luminus-practice
+# Luminus Practice
 
 ## Running
 
