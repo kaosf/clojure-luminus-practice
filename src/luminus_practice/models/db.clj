@@ -2,4 +2,7 @@
   (:use korma.core
         [korma.db :only (defdb)]))
 
-(def db-spec {:name "jdbc/myDatasource"})
+(def db-spec {:subprotocol "postgresql"
+              :subname "//localhost/my_website"
+              :user "admin"
+              :password "admin"})
