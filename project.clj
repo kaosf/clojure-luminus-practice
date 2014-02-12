@@ -21,6 +21,8 @@
   :ring {:handler luminus-practice.handler/app
          :init    luminus-practice.handler/init
          :destroy luminus-practice.handler/destroy}
+  :ragtime {:migrations ragtime.sql.files/migrations
+            :database "jdbc:postgresql://localhost:5432/my_website?user=luminus_practice"}
   :profiles
   {:uberjar {:aot :all}
    :production {:ring {:open-browser? false
