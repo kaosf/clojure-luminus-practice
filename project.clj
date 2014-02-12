@@ -11,14 +11,18 @@
                  [markdown-clj "0.9.41"]
                  [environ "0.4.0"]
                  [korma "0.3.0-RC6"]
-                 [postgresql/postgresql "9.1-901.jdbc4"]]
+                 [postgresql/postgresql "9.1-901.jdbc4"]
+                 [ragtime/ragtime.sql.files "0.3.4"]]
 
   :repl-options {:init-ns luminus-practice.repl}
   :plugins [[lein-ring "0.8.10"]
-            [lein-environ "0.4.0"]]
+            [lein-environ "0.4.0"]
+            [ragtime/ragtime.lein "0.3.4"]]
   :ring {:handler luminus-practice.handler/app
          :init    luminus-practice.handler/init
          :destroy luminus-practice.handler/destroy}
+  :ragtime {:migrations ragtime.sql.files/migrations
+            :database "jdbc:postgresql://localhost:5432/my_website?user=luminus_practice"}
   :profiles
   {:uberjar {:aot :all}
    :production {:ring {:open-browser? false
