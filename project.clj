@@ -12,7 +12,8 @@
                  [environ "0.4.0"]
                  [korma "0.3.0-RC6"]
                  [postgresql/postgresql "9.1-901.jdbc4"]
-                 [ragtime/ragtime.sql.files "0.3.4"]]
+                 [ragtime/ragtime.sql.files "0.3.4"]
+                 [lobos "1.0.0-beta1"]]
 
   :repl-options {:init-ns luminus-practice.repl}
   :plugins [[lein-ring "0.8.10"]
