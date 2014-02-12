@@ -15,7 +15,8 @@
 
   :repl-options {:init-ns luminus-practice.repl}
   :plugins [[lein-ring "0.8.10"]
-            [lein-environ "0.4.0"]]
+            [lein-environ "0.4.0"]
+            [ragtime/ragtime.lein "0.3.4"]]
   :ring {:handler luminus-practice.handler/app
          :init    luminus-practice.handler/init
          :destroy luminus-practice.handler/destroy}
