@@ -9,7 +9,9 @@
                  [com.taoensso/timbre "3.0.0"]
                  [com.taoensso/tower "2.0.1"]
                  [markdown-clj "0.9.41"]
-                 [environ "0.4.0"]]
+                 [environ "0.4.0"]
+                 [korma "0.3.0-RC6"]
+                 [postgresql/postgresql "9.1-901.jdbc4"]]
 
   :repl-options {:init-ns luminus-practice.repl}
   :plugins [[lein-ring "0.8.10"]
