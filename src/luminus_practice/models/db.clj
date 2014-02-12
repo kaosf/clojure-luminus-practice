@@ -4,5 +4,5 @@
 
 (def db-spec {:subprotocol "postgresql"
               :subname "//localhost/my_website"
-              :user "admin"
-              :password "admin"})
+              :user "luminus_practice"
+              :password "luminus_practice"})
